@@ -1,0 +1,27 @@
+<style>
+    #menu {
+        display: none;
+    }
+</style>
+
+
+<div>
+    <button id="toggleBtn">Toggle</button>
+
+    <div id="menu">
+        Menu
+    </div>
+
+</div>
+
+<script>
+    document.getElementById("toggleBtn").addEventListener("click", function () {
+        var content = document.getElementById("menu");
+        if(menu.style.display === "none"){
+            menu.style.display = "block";
+        }
+        else{
+            menu.style.display = "none"
+        }
+    });
+</script>
